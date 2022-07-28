@@ -9,6 +9,7 @@ const server = http.createServer((req, res) => {
 
       req.on('data', (data) => {
         // console.log(data);
+        // 字节流不仅仅包含图片信息
         // fileWriter.write(data);
       });
 
